@@ -1,0 +1,18 @@
+{
+  "name": "symdiff-handlebars",
+  "version": "0.0.1",
+  "description": "Extracts classes from a Handlebars template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r test/chai.js test/*.test.js"
+  },
+  "dependencies": {
+    "symdiff-html": "0.0.1"
+  },
+  "devDependencies": {
+    "chai": "2.3.0",
+    "mocha": "2.2.4"
+  },
+  "author": "Nikolaus Piccolotto <hello@npiccolotto.com>",
+  "license": "MIT"
+}
